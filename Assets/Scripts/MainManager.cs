@@ -6,7 +6,7 @@ public class MainManager : MonoBehaviour
 {
     //Start() and Update() methods deleted
 
-    public static MainManager Instance;
+    public static MainManager Instance { get; private set; }
 
     public Color TeamColor;
 
